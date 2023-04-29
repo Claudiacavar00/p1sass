@@ -1,0 +1,335 @@
+/*ESTILO PRIMARIO PARA TODAS LAS PAGINAS DE LA WEB*/
+
+/*COLOCACION CAJAS GRANDES*/
+nav{
+  display:flex;/*lugar de las cajas*/
+  background-color: #EBD534; /*-------------------------------------------------orientativo para verlo--------------------------------------------------*/
+  width:100%; /*tamaños*/
+  height: 15%;
+  font-size: 200%;
+  
+}
+
+ul{
+  padding-top: 5%;
+}
+
+/*CAJAS*/
+
+.c1{
+  flex:2;/*tamaño de las cajas*/ /*separacion del filo top*/
+
+}
+.c2{
+  flex:2;
+
+}
+.c3{
+  flex:2;
+
+}
+
+
+.c5{
+  flex: 2;
+
+}
+.c6{
+  flex: 2;  
+}
+
+/*colocar en su lugar las letras de las cajas*/
+#inicio{
+  left: 20%; /*COLOCACION PARA LA IZQUIERDA*/ 
+  
+}
+
+#reservas{
+  left: 13%;
+}
+
+#logo{
+  width: 100%;
+  height: 100%;
+  padding-left:100% ; /*moverlo a la izquierda*/
+  /*padding-top: 9%;*/
+}
+
+#carta{
+  left: 20%;
+}
+
+#about{
+  left: 13%;
+
+}
+#about:hover{
+  border-style: solid;
+  background-color: #EBD534;
+  ;
+  border: 1px solid rgb(254, 246, 5);
+  z-index: 1;
+  left: 1%;
+}
+
+
+#chico{
+  left: 62%;
+}
+
+li{/*lista de enlaces*/
+  text-align: center; /*centrado*/
+  display: inline-block; /*horizontal*/
+  position:relative;/*para desplegable*/
+
+}
+
+/*ENLACES*/
+a{
+  text-decoration: none;
+  font-size:100%;
+  color:#000000;
+  text-decoration:none/*no subrayado*/
+}
+
+#verde:hover{
+  color:#00c8ff;
+  font-size: 110%;
+}
+#azul:hover{
+  color:#0000ff;
+  font-size: 110%;
+}
+#rosa:hover{
+  color:#00c8ff;
+  font-size: 110%;
+}
+
+
+/*desplegable*/
+nav li>ul{ 
+  display:none;
+}
+
+nav li:hover>ul{ /*desplegable al pasar el raton*/
+    display:inline-block;/*baje al pasar raton el deplegable*/
+    position:relative;
+    top:110%;
+    left:-60%;
+    box-sizing: content-box; 
+    z-index: 1;
+}
+
+/*COLOCACION*/
+.apartados{
+  left:80%;
+}
+
+
+
+/*----------------------FIN DES ESTILO PRIMARIO PARA TODAS LAS PAGINAS------------------------------------*/
+
+
+/*--------------------- BODY -> INICIO-------------------------*/
+
+body{
+  background-color:beige;
+  margin: 0%;
+}
+
+h1{
+  text-align: center;
+}
+
+.imagen {
+  height: 100%;
+  width: 50%;
+
+}
+
+
+/*Primer DIV, contenedor del titulo1, texto y foto1*/
+
+
+.div-foto-texto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.div-foto-texto-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.div-foto-texto-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+/*Primer recuadro -¿quienes somos?*/
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 20%;
+  overflow: hidden;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: #fcfe7ee7;
+  border-radius: 15px 15px 15px 15px;
+}
+
+/*Cuadro de texto con la info*/
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 55%;
+  overflow: hidden;
+  background: #f8f552f6;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 15px 15px 15px 15px;
+
+}
+
+/*texto del div*/
+.informacion23 {
+  width: 80%;
+  height: 80%;
+  font-size: 200%;
+  text-align: center;
+}
+
+.container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+#esperamos {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+/*------------RESEÑAS------------------*/
+
+/*Recuadro "Deja tu reseña" */
+.res {
+  font-size: 150%;
+
+}
+
+.div-foto-texto-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 15%;
+  overflow: hidden;
+  background-color: rgb(112, 206, 230);
+  border: 0.1rem solid black;
+  border-radius: 15px 15px 15px 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/*Primera parde del form*/
+
+.primer-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+
+}
+
+.segundo-form  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: column;
+
+}
+
+.div-foto-texto-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+  flex-direction: column;
+  overflow: hidden;
+  background:rgb(248, 245, 169);
+}
+
+#fname {
+  width: 50%;
+
+}
+
+.formu99 {
+  display: flex;
+  height: 50%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.formu998 {
+  display: flex;
+  height: 20%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button{
+  width: 20%;
+  background-color: rgb(112, 206, 230);
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 10px 10px 10px 10px;
+
+}
+
+.formu999 {
+  display: flex;
+  height: 45%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+

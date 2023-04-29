@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>ATIKO</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/reservas.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+          <!--MENU DE LA PAGINA-->
+          <div >
+            <nav>
+                
+			
+                <div class="c1">
+                    <ul >
+				        <li class="apartados" id="inicio"><a id="rosa" href="inicio.html" >INICIO</a></li>
+                    </ul>
+                </div>
+                <div class="c5">
+                    <ul>
+                        <li class="apartados" id="reservas"><a id="rosa" href="reservas.html" >RESERVAS</a></li>
+                    </ul>
+                </div>
+                <div class="c2">
+                    <li ><img src="../img/logo.png" alt="logo" id="logo" ></li>
+                </div>
+                <div class="c3">
+                    <ul>
+                        <li class="apartados" id="carta"> <a id="rosa" href="carta.html" >CARTA</a></li>
+                    </ul>   
+                </div> 
+                <div class="c6">
+                    
+                    <ul>
+                        <li class="about" id="about"><a id="verde" href="contacto.html" >ABOUT US</a> <br>
+					        <ul>                                
+                                <li class="submenu" id="chico"><a id="verde" href="galeria.html">GALERIA</a></li> <br>
+                                <li class="submenu" id="chico"><a id="verde" href="trabaja_nosotros.html">TRABAJA</a></li> <br>
+                                <li class="submenu" id="chico"><a id="verde" href="horario.html">HORARIO</a></li> <br>
+                                
+                           
+                        </ul>
+                        </li>
+                    </ul>  
+                
+                </div>
+            </nav>
+        </div>
+    <!--FORMULARIO RESERVAS-->
+    
+        <h1>RESERVAS</h1>
+        
+            <form autocomplete="on">
+                <div class="formulario">
+
+                <fieldset class="reservas"><br><br>
+
+                    <div class="form1">
+
+                    <label type="text">Nombre </label>
+                    <input class="cloti" type="text"><br> <br>
+
+                    <label type="text"> Apellido </label>
+                    <input class="cloti" type="text"> <br><br>
+
+                    <label type="text">Número de comensales </label>
+                    <select name="num" > 
+                        <option>    1 persona  </option>
+                        <option>    2 personas  </option>
+                        <option>    3 personas  </option>
+                        <option>    4 personas </option>
+                        <option>    5 personas </option>
+                        <option>    6 personas  </option>
+                        <option>    7 personas  </option>
+                        <option>    8 personas  </option>
+                        <option>    9 personas  </option>
+                        <option>    10 personas  </option>
+                        <option>    11 personas  </option>
+                        <option>    12 personas  </option>
+                    </select> <br><br>
+
+                </div>
+                <div class="form2">
+
+                    <label type="text"> Zona</label>
+                    <input id="mesa1" type="radio" value="mesa1" name="mesas">Terraza 
+                    <input id="mesa2" type="radio" value="mesa2" name="mesas" >Sala <br><br>
+
+
+                    <label type="text"> Día</label>
+                    <input class="cloti" type="date"> <br><br>
+
+                    <label type="text"> Hora </label>
+                    <input  class="cloti" type="time"> <br><br>
+                </div>
+                
+                </fieldset>
+                </div>
+                <br><br>
+
+                <div class=botones>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Reestablecer</button>
+                </div>    
+
+            </form>     
+
+        
+    </body>
+</html>

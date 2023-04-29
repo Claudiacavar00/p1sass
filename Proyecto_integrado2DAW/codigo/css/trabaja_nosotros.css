@@ -1,0 +1,301 @@
+H1{
+  text-align: center;
+}
+
+
+
+.cloti{
+  background-color: #ffc5d6;
+
+}
+
+form{
+  text-align: center ;
+  padding-left: 30%;
+  padding-right: 50%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.pepe{
+
+  width: 203%;
+  height: 25%;
+  border: solid #00aa2b 2px;
+  background-color: #bffcc6;
+  text-align: justify;
+  display: flex;
+  
+ 
+}
+
+.f1{
+  flex: 0.8;
+   text-align: justify;
+   position: absolute;
+   left: 30%;
+   right: 50%;
+   padding-top: 4%;
+   padding-left: 2%;
+   
+}
+
+
+.f2{
+  flex: 0.8;
+  text-align: justify;
+  position: absolute;
+  left: 50%;
+  padding-top: 2%;
+  padding-right: 6%;
+
+ 
+}
+
+
+
+label{
+  display: inline-block;
+  width: 80px;
+}
+
+
+
+.botones {
+  text-align: left;
+  padding-top: 0%;
+  margin-left: 0%;
+  padding: 3%;
+  padding-inline: 2%;
+}
+
+
+  
+
+#azul:hover{
+  color:#0058aa;
+  font-size: 110%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*COLOCACION CAJAS GRANDES*/
+nav{
+  display:flex;/*lugar de las cajas*/
+  background-color: #faa2ab; /*-------------------------------------------------orientativo para verlo--------------------------------------------------*/
+  width:100%; /*tamaños*/
+  height: 15%;
+  font-size: 200%;
+  
+}
+
+ul{
+  padding-top: 5%;
+}
+
+/*CAJAS*/
+
+.c1{
+  flex:2;/*tamaño de las cajas*/ /*separacion del filo top*/
+
+}
+.c2{
+  flex:2;
+
+}
+.c3{
+  flex:2;
+
+}
+
+
+.c5{
+  flex: 2;
+
+}
+.c6{
+  flex: 2;  
+}
+
+/*colocar en su lugar las letras de las cajas*/
+#inicio{
+  left: 20%; /*COLOCACION PARA LA IZQUIERDA*/ 
+  
+}
+
+#reservas{
+  left: 13%;
+}
+
+#logo{
+  width: 50%;
+  height: 70%;
+  padding-left:0% ; /*moverlo a la izquierda*/
+  padding-top: 9%;
+}
+
+#carta{
+  left: 20%;
+}
+
+#about{
+  left: 13%;
+
+}
+#about:hover{
+  border-style: solid;
+  background-color: #bffcc6;
+  border: 1px solid green;
+  z-index: 1;
+  left: 1%;
+}
+
+
+#chico{
+  left: 62%;
+}
+
+a{/*enlaces*/
+  text-decoration: none;/*no subrayado*/
+}
+li{/*lista de enlaces*/
+  text-align: center; /*centrado*/
+  display: inline-block; /*horizontal*/
+  position:relative;/*para desplegable*/
+
+}
+
+nav li>ul{/*desplegable*/
+  display:none;
+}
+
+nav li:hover>ul{ /*desplegable al pasar el raton*/
+    display:inline-block;/*baje al pasar raton el deplegable*/
+    position:relative;
+    top:110%;
+    left:-60%;
+    box-sizing: content-box; /*hay que retocar y ver que hace*/
+    z-index: 1;
+}
+
+/*COLOCACION*/
+.apartados{
+  left:80%;
+}
+
+
+
+
+
+/*------------------PIE DE PAGINA---------------------------*/
+
+
+#footer1{
+  display:flex;
+  background-color: #ACE7FF; 
+  font-size: 100%;
+ 
+  
+}
+
+#footer1 div{
+  flex: 1;
+   position: center;
+  
+}
+
+#izquierdopie p  {
+  display: block;
+  width: 80%;
+  position: relative;
+  left: 50%;
+  text-align: left;
+  
+}
+#derechopie p{
+  display: block;
+  width: 80%;
+  position: relative;
+   text-align: left;
+  
+
+}
+#centropie p{
+  position:relative;
+  top: 25%;
+  text-align: center;
+  left: -2.5%;
+  
+}
+#centropie img{
+  justify-content: center;
+  position:relative;
+  left: 42%;
+  top: 45%;
+  width: 20px;
+  height: 20px;
+  
+}
+
+/*ENLACES*/
+a{ 
+  font-size:100%;
+  color:#000000;
+  text-decoration:none
+}
+#rosa:hover{
+  color:#f700ff;
+  font-size: 110%;
+}
+#verde:hover{
+  color:#00aa2b;
+  font-size: 110%;
+}
+#azul:hover{
+  color:#0058aa;
+  font-size: 110%;
+}
+/*TABLA PIE DE PAGINA*/
+
+.tablahorario{
+   width: 100%;        /*anchura de la tabla*/
+   border: 1px solid #000;
+ }
+ th, td {
+    width: 80%;    /*anchura de las celdas*/
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+ }
+
+ #footer2 p{
+   border-collapse: collapse;
+  margin: 0%;
+  background-color: #5b78a7;
+  text-align: center;
+}
+
+/*cuerpo de la pagina*/
+body {
+  font-family: 'Dosis', sans-serif;
+  margin: 0%;
+
+}
